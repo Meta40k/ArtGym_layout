@@ -1,0 +1,187 @@
+.header-menu {
+    display: flex;
+    align-items: center;
+    height: 120px;
+
+
+    font-size: 16px;
+}
+
+.header-menu-logo {
+    justify-content: end;
+}
+
+.menu-list {
+    display: flex;
+    justify-content: left;
+
+}
+
+.menu-list-item {
+    margin-left: 110px;
+}
+
+.menu-list-link {
+
+    color: #1B1B1B;
+}
+
+.menu-list-link:hover {
+    color: #1B1B1B;
+}
+
+
+.header-menu-auth_block {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.news-block {
+    height: 700px;
+}
+
+.news-block-card {
+    margin-top: 40px;
+    color: white;
+    height: 238px;
+    border: grey solid 1px;
+    border-radius: 20px;
+}
+
+.ad1-block-nav {
+    margin: 15px 0 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.ad1-block-item {
+    margin: 0 3px 0 3px;
+    height: 10px;
+    width: 10px;
+    background-color: grey;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.ads1-block {
+    padding: 30px 0 50px 0;
+    position: relative !important;
+    background: rgba(88, 151, 219, 0.1);
+    backdrop-filter: blur(19px);
+}
+
+.ads1-block-content {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px 0 20px;
+}
+
+.ads1-block-content-item {
+    width: inherit;
+    width: 19%;
+}
+
+.ads1-block-content-item img:hover {
+    cursor: pointer;
+}
+
+.ads1-block-right {
+    position: absolute !important;
+    top: inherit;
+    left: inherit;
+    right: 0 !important;
+    top: 20% !important;
+    width: 60px;
+    height: 263px;
+    background-color: #5897DB;
+    border-radius: 20px;
+}
+
+.ads1-block-left {
+    position: absolute !important;
+    left: 0 !important;
+    top: 20% !important;
+    width: 60px;
+    height: 263px;
+    background-color: #5897DB;
+    border-radius: 20px;
+}
+
+.ads1-price{
+    color: rgba(27, 27, 27, 1);
+    font-size: 16px;
+    font-weight: 700;
+}
+.ads1-description{
+    color: rgba(27, 27, 27, 1);
+    font-size: 16px;
+    font-weight: 400;
+}
+.ads1-block-content-item p {
+    max-width: inherit;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    white-space: nowrap; /* Текст не переносится */
+    overflow: hidden; /* Обрезаем всё за пределами блока */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+}
+
+
+.subscribe {
+    padding-top: 50px;
+}
+
+.subscribe-header {
+    font-size: 32px;
+    color: #F8F8F8;
+    padding-bottom: 15px;
+}
+
+.subscribe-description {
+    color: #F8F8F8;
+    font-size: 16px;
+    padding-bottom: 50px;
+}
+
+
+
+
+footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #1F487E;
+    height: 374px;
+    color: #F8F8F8;
+    padding: 50px 0 0 0;
+}
+
+.footer-left {
+    margin-right: 20px;
+    display: flex;
+}
+.footer-left ul li {
+    padding-bottom: 8px;
+}
+
+.footer-right {
+    margin-left: 20px;
+}
+
+.footer-right ul li {
+    padding-bottom: 8px;
+}
+
+.footer-header {
+    font-size: 27px;
+    color: rgb(248, 248, 248)
+}
+
+.footer-logo{
+    position: absolute;
+    left: 300px;
+    top: 50px;
+}
