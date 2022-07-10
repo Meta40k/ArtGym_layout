@@ -1,0 +1,97 @@
+.news-block {
+    height: 700px;
+}
+
+.news-block-card {
+    margin-top: 40px;
+    color: white;
+    height: 238px;
+    /* border: grey solid 1px; */
+    border-radius: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.art-gym-card {
+    position: relative;
+
+    width: 238px;
+    height: 238px;
+    border-radius: 20px;
+
+
+    background-image: url(/img/art-gym-card-news.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.art-gym-card:hover .art-gym-card-wrapper{
+    cursor: pointer;
+    height: 220px;
+    background: rgba(248, 248, 248, 0.9);
+    transition: all 0.5s;
+}
+
+.art-gym-card:hover .art-gym-card-text{
+    height: 80%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+}
+
+
+.art-gym-card-wrapper {
+    position: absolute;
+    bottom: 0;
+
+    padding: 12px;
+
+    transition: all 0.5s;
+    background: rgba(248, 248, 248, 0.6);
+    backdrop-filter: blur(25px);
+    border-radius: 20px;
+    height: 114px;
+    width: 100%;
+
+
+    z-index: 10;
+}
+
+
+
+.art-gym-card-text {
+    height: 70%;
+    margin: 0; /* Убираем внешний отступ */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+
+    color: rgba(27, 27, 27, 1);
+}
+
+.art-gym-card-date {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+
+
+
+
+
+
+

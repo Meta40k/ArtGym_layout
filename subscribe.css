@@ -6,6 +6,7 @@ p {
 
 .subscribe {
     height: 300px;
+    padding-top: 100px;
     background-color: #5897DB;
 }
 
@@ -21,11 +22,13 @@ p {
     font-size: 32px;
     line-height: 44px;
     padding-right: 40px;
+    letter-spacing: 0.1em;
 }
 
 .subscribe-description {
     margin: 0;
-    padding: 0;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .subscribe-description p {
@@ -34,6 +37,8 @@ p {
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
+    letter-spacing: 0.05em;
+    color: rgba(248, 248, 248, 0.7);
 }
 
 .subscribe-input {
