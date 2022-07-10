@@ -1,0 +1,19 @@
+.stroka {
+    background-color: blue;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.q11 {
+    border-radius: 1px solid grey;
+}
+
+.q22 {
+    border-radius: solid yellow 1px;
+}
