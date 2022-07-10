@@ -30,11 +30,11 @@ header {
     position: absolute;
 
     background-color: #5897DB;
-    width: 1625px;
-    height: 1625px;
+    width: 1920px;
+    height: 1920px;
     z-index: -2;
     border-radius: 50%;
-    top: -60%;
+    top: -80%;
     left: -10%;
 }
 
@@ -125,7 +125,7 @@ header {
 
 
 .header-img {
-    height: 700px;
+    /* height: 700px; */
     /* border: solid 1px grey; */
 
 }
