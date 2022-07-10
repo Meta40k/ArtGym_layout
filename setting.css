@@ -32,18 +32,7 @@ a:hover{
     margin: 0 auto;
 }
 
-body{
-    background-image: url(/img/header-background.svg);
-}
 
-.subscribe-btn{
-    background-color: #D43D65;
-    width: 187px;
-    height: 65px;
-    color: white;
-    border-radius: 20px;
-    border: none;
-}
 
 .subscribe-input{
     width: 572px;
@@ -59,3 +48,4 @@ body{
     left: 150px;
     color: rgba(248, 248, 248, 0.5)
 }
+

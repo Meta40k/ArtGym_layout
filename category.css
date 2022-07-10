@@ -2,6 +2,11 @@
     color: black;
 }
 
+.category-title {
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
 .category-item {
     border: solid 1px grey;
     font-family: 'Nunito', sans-serif;
@@ -48,4 +53,5 @@
     position: absolute;
     left: 80px;
     z-index: -1;
+    fill: #ff0000;
 }

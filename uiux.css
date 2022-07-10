@@ -1,0 +1,15 @@
+.art-gym-btn {
+    background-color: rgba(212, 61, 101, 1);
+    border: rgba(212, 61, 101, 1);
+    border-radius: 20px;
+    width: 200px;
+    height: 65px;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    /* font-weight: bold; */
+}
+
+.art-gym-btn:hover {
+    font-size: 18px;
+    /* font-weight: bold; */
+}
