@@ -13,3 +13,13 @@
     font-size: 18px;
     /* font-weight: bold; */
 }
+
+
+.simple-line-red{
+    position: absolute;
+    bottom: 50px;
+    width: 90%;
+    height: 2px;
+    background-color: #D43D65;
+    margin: 0 auto;
+}
